@@ -12,17 +12,19 @@ Make sure you have the following installed:
 - Docker
 - Docker Compose
 
+Make sure that both ports 3000 and 8888 are free to use, or go ahead and change them across the entire codebase
+
 ## Getting Started
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/ahmednofal/supremainc_arithmetic_progression_summation
 cd <project-directory>
 ```
 
 2. Start the application:
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
 3. Access the application:
